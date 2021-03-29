@@ -1,0 +1,34 @@
+body {
+ background-image: url("bg.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.container {
+     margin: 0 auto;
+     text-align: left;
+     width: 1024px;
+}
+
+img {
+	height: 200px;
+}
+
+#showRandomPokes {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#searchForm {
+	margin: 10px;
+}
+
+#randomPokes {
+	margin: 10px;
+}
+
+#returnPokes {
+	margin: -5px;
+}

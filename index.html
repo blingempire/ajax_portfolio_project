@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Pokemon AJAX API Project</title>
+</head>
+<body>
+
+	<h1>Pokemon AJAX API Project</h1>
+
+	<div id="searchPoke">
+		<div id="searchForm">
+			<form method="get" id="lookupPokemon">
+				<input type="text" id="pokeToFind" placeholder="Pokemon num. (1-200)">
+				<input type="submit" value="Find">				
+			</form>
+		</div> <!--END searchForm -->
+
+
+		<div class="container" id="myPokemon">
+			<!-- Pokemon specified by number enterered in search field will appear here -->
+		</div>
+
+<hr>
+	</div>
+
+	<div id="randomPokes">
+			<button>Reveal RANDOM Pokemon!</button>
+	</div>
+
+
+	<div class="container" id="returnPokes">
+			<button>Retrieve previously RETURNED Pokemon!</button>
+	</div>
+
+
+	<div class="container" id="showRandomPokes">
+    <!-- Random Pokemon will appear here -->
+	</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
